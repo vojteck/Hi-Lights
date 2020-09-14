@@ -23,6 +23,7 @@ export const matchesSlice = createSlice({
   extraReducers: {
     [getMatchesAsync.fulfilled]: (state, action) => {
       state.matches = action.payload;
+      
     }
   },
 });
