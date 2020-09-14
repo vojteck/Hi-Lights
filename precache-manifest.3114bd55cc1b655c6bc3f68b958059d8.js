@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0fa5a5ae4a56a9aab14da2a82830e0c1",
+    "revision": "3adcc05eb535bf45f0a255ba623f066f",
     "url": "/Hi-Lights/index.html"
   },
   {
-    "revision": "1fd4f0ba0366b7fe4abc",
+    "revision": "e2f824ce4b17410f0411",
     "url": "/Hi-Lights/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "1fd4f0ba0366b7fe4abc",
-    "url": "/Hi-Lights/static/js/2.68f3387a.chunk.js"
+    "revision": "e2f824ce4b17410f0411",
+    "url": "/Hi-Lights/static/js/2.02c89bcf.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Hi-Lights/static/js/2.68f3387a.chunk.js.LICENSE.txt"
+    "url": "/Hi-Lights/static/js/2.02c89bcf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ef28e5cc05e53bfee567",
-    "url": "/Hi-Lights/static/js/main.6733017f.chunk.js"
+    "revision": "2fccda4757cda02e727c",
+    "url": "/Hi-Lights/static/js/main.71a3273b.chunk.js"
   },
   {
     "revision": "85ccc3eb3e571a45b5f4",
