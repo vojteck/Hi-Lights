@@ -11,7 +11,7 @@ export default function MatchSnippet(props) {
                     {props.match.title}
                 </div>
                 <Collapse in={open}>
-                <div
+                    <div
                     dangerouslySetInnerHTML={{
                         __html: props.match.embed
                     }}></div>
