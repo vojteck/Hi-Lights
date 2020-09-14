@@ -16,18 +16,18 @@ export default function App() {
   return (
     <Container fluid className="p-4">
     <Row className="justify-content-md-center">
-      <Col xs lg="2"/>
-      <Col xs lg="5">
+      <Col xs="0" lg="2"/>
+      <Col xs="6" lg="5">
         <Jumbotron>
           <MatchesContainer></MatchesContainer>
         </Jumbotron>
       </Col>
-      <Col xs lg="3">
+      <Col xs="6" lg="3">
         <Jumbotron>
           <CompetitionsContainer></CompetitionsContainer>
         </Jumbotron>
       </Col>
-      <Col xs lg="2"/>
+      <Col xs="0" lg="2"/>
     </Row>
   </Container>
   );

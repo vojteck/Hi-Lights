@@ -11,6 +11,7 @@ export default function MatchesContainer() {
             <p className="lead">Matches</p>
             <hr class="my-3"/>
             <ListGroup>
+
                 {slice && getSelectedCompetitionsMatches(slice).map(match => (
                     <MatchSnippet key={match.title} match={match}></MatchSnippet>
                 ))}

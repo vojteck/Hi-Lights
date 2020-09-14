@@ -18,16 +18,21 @@ export const matchesSlice = createSlice({
     },
     unselectCompetition: (state, action) => {
         state.selectedCompetitions = state.selectedCompetitions.filter(item => item !== parseInt(action.payload));
+    },
+    clearSelection: (state) => {
+        state.selectedCompetitions = [];
+    },
+    selectTop5: (state) => {
+        state.selectedCompetitions.push(15, 14, 10, 12, 11);
     }
   },
   extraReducers: {
     [getMatchesAsync.fulfilled]: (state, action) => {
       state.matches = action.payload;
-      
     }
   },
 });
 
-export const { selectCompetition, unselectCompetition, toggleCompetition } = matchesSlice.actions;
+export const { selectCompetition, unselectCompetition, toggleCompetition, clearSelection, selectTop5 } = matchesSlice.actions;
 
 export default matchesSlice.reducer;
