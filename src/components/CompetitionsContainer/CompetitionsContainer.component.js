@@ -8,15 +8,14 @@ import ClearSelection from './ClearSelection.component';
 
 export default function CompetitionsContainer() {
     const slice = useSelector(state => state);
-
     return (
         <>
             <p className="lead">Competitions</p>
-            <hr class="my-3" />
+            <hr className="my-3" />
             <ListGroup variant="flush">
                 <SelectTop5></SelectTop5>
                 <ClearSelection></ClearSelection>
-                <hr class="my-2" />
+                <hr className="my-2" />
                 {slice && getAllCompetitions(slice).map(competition => (
                     <CompetitionSnippet key={competition.id} competition={competition}></CompetitionSnippet>
                 ))}

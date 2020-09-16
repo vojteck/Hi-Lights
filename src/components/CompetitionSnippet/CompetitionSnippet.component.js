@@ -15,11 +15,11 @@ export default function CompetitionSnippet(props) {
 
     return (
         <>
-        <ListGroup.Item onClick={() => toggle()} action variant={variant}>
-            <div className="d-flex justify-content-center">
-                {props.competition.name}
-            </div>
-        </ListGroup.Item>
+            <ListGroup.Item onClick={() => toggle()} action variant={variant}>
+                <div className="d-flex flex-row justify-content-between align-items-center">
+                    {props.competition.name}
+                </div>
+            </ListGroup.Item>
         </>
     );
 }
