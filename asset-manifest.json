@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/Hi-Lights/static/js/main.71a3273b.chunk.js",
-    "main.js.map": "/Hi-Lights/static/js/main.71a3273b.chunk.js.map",
+    "main.js": "/Hi-Lights/static/js/main.ba20e228.chunk.js",
+    "main.js.map": "/Hi-Lights/static/js/main.ba20e228.chunk.js.map",
     "runtime-main.js": "/Hi-Lights/static/js/runtime-main.82e918db.js",
     "runtime-main.js.map": "/Hi-Lights/static/js/runtime-main.82e918db.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/Hi-Lights/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.02c89bcf.chunk.js": "/Hi-Lights/static/js/2.02c89bcf.chunk.js",
-    "static/js/2.02c89bcf.chunk.js.map": "/Hi-Lights/static/js/2.02c89bcf.chunk.js.map",
+    "static/js/2.f6383d49.chunk.js": "/Hi-Lights/static/js/2.f6383d49.chunk.js",
+    "static/js/2.f6383d49.chunk.js.map": "/Hi-Lights/static/js/2.f6383d49.chunk.js.map",
     "index.html": "/Hi-Lights/index.html",
-    "precache-manifest.3114bd55cc1b655c6bc3f68b958059d8.js": "/Hi-Lights/precache-manifest.3114bd55cc1b655c6bc3f68b958059d8.js",
+    "precache-manifest.6bfd9dbf2305e5e9a4307fe1bc155cce.js": "/Hi-Lights/precache-manifest.6bfd9dbf2305e5e9a4307fe1bc155cce.js",
     "service-worker.js": "/Hi-Lights/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/Hi-Lights/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/js/2.02c89bcf.chunk.js.LICENSE.txt": "/Hi-Lights/static/js/2.02c89bcf.chunk.js.LICENSE.txt"
+    "static/js/2.f6383d49.chunk.js.LICENSE.txt": "/Hi-Lights/static/js/2.f6383d49.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.82e918db.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.02c89bcf.chunk.js",
-    "static/js/main.71a3273b.chunk.js"
+    "static/js/2.f6383d49.chunk.js",
+    "static/js/main.ba20e228.chunk.js"
   ]
 }
