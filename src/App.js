@@ -23,7 +23,7 @@ export default function App() {
         </Jumbotron>
       </Col>
       <Col xs="6" lg="3">
-        <Jumbotron>
+        <Jumbotron className="bg-light">
           <CompetitionsContainer></CompetitionsContainer>
         </Jumbotron>
       </Col>

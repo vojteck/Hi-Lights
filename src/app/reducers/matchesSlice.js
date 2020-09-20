@@ -23,7 +23,7 @@ export const matchesSlice = createSlice({
         state.selectedCompetitions = [];
     },
     selectTop5: (state) => {
-        state.selectedCompetitions.push(15, 14, 10, 12, 11);
+        state.selectedCompetitions.push(15, 14, 10, 12, 13);
     }
   },
   extraReducers: {

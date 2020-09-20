@@ -8,11 +8,7 @@ export default function CompetitionSnippet(props) {
 
     const isSelected = useSelector(state => state.matches.selectedCompetitions).includes(props.competition.id);
     const variant = isSelected ? 'primary' : 'light';
-
-    function toggle() {
-        isSelected ? dispatch(unselectCompetition(props.competition.id)) : dispatch(selectCompetition(props.competition.id));
-    }
-
+    const toggle = () => isSelected ? dispatch(unselectCompetition(props.competition.id)) : dispatch(selectCompetition(props.competition.id));
     return (
         <>
             <ListGroup.Item onClick={() => toggle()} action variant={variant}>
